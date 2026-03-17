@@ -99,4 +99,74 @@ To https://github.com/jerichogamboa111-create/March_17_2026-.git
 branch 'main' set up to track 'origin/main'.
 
 EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (main)
+$ git branch jericho
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (main)
+$ git branch
+  jericho
+* main
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (main)
+$ git checkout jericho
+Switched to branch 'jericho'
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git branch
+* jericho
+  main
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git status
+On branch jericho
+nothing to commit, working tree clean
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git status
+On branch jericho
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git add .
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git commit -m "updated text file"
+[jericho 36f0917] updated text file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git status
+On branch jericho
+nothing to commit, working tree clean
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (main)
+$ git checkout jericho
+Switched to branch 'jericho'
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git checkout mai
+error: pathspec 'mai' did not match any file(s) known to git
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (jericho)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+EXACT@DESKTOP-H3MMDKJ MINGW64 ~/desktop/git (main)
 $
